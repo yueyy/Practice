@@ -26,12 +26,11 @@ class Read():
 	def change(self) :
 		c = self.sumup
 		x = int(c)
-		symbol = ''
 		ans = ''
 		while(x):
 			ans = str(x%7) + ans
 			x = x//7
-		print('\n转化为7进制是:\n%s' % symbol+ans)
+		print('\n转化为7进制是:\n%s' % ans)
 
 if __name__ == '__main__' :
 	number = Read(input("输入一个尽可能长的数字\n"))
