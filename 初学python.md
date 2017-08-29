@@ -5,7 +5,7 @@
 ---
 这是[后端组最终作业](http://github.com/yueyy/hou/blob/master/finish.py).
 
-[TOC]
+
 
 ### **1.关于python**
 
